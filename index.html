@@ -135,10 +135,18 @@
 
 		.container .box .content {
 			position: absolute;
-			height: 100%;
+			top: 100px;
+			height: calc(100% -100px);
 			text-align: center;
 			padding: 20px;
 			box-sizing: border-box;
+			transition: 0.5s;
+		}
+
+		.container .box .content h3{
+			margin: 0;
+			padding: 0;
+			color: #fff;
 		}
 		.descriptions {
 		  position: absolute;
