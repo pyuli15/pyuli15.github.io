@@ -152,7 +152,7 @@
 			position: relative;
 			width: calc(400px - 30px);
 			height: calc(300px - 30px);
-			background-image: url(space.png);
+			background-image: url(shoot.PNG);
 			background-position: center;
 			text-align: center;
 			float: left;
@@ -191,10 +191,11 @@
 
 		.container .content2:hover {
 			opacity: 1;
+			cursor: url("bullseye.png");
 			
 		}
 
-		.text1  {
+		.text2  {
 			text-align: center;
 			position: relative;
 			background-color: #e59aff;
@@ -291,13 +292,27 @@
 			<div class="box1">
 				<a href="space-pong"></a>
 				<div style="background-image: url(space.png);">
-				<div class="icon"><i class="fa fa-bullseye" height= 200,width=200aria-hidden="true"></i>
 				</div>
 				<div class="content1" onclick="location.href='space-pong';" style="cursor: pointer;">
 					<ul>
 					<li><a href="space-pong"></a></li>
 					<div class="text1">
 						Space Pong is a rendition of the classic pong game where your taske is to keep a ball in the game screen. In this version, You must keep the ball in a space world while collecting stranded astronauts on the screen. How many astronauts can you save?
+					</div>
+					</ul>
+				</div>
+				</div>
+			</div>
+
+			<div class="box2">
+				<a href="shoot-em-all"></a>
+				<div style="background-image: url(shoot.png);">
+				</div>
+				<div class="content2" onclick="location.href='shoot-em-all';" style="cursor: pointer;">
+					<ul>
+					<li><a href="shoot-em-all"></a></li>
+					<div class="text2">
+						Shoot em all is a simple shooting game where your goal is to shoot as many birds before time runs out. Miss too many birds and it's GAME OVER. Inpired by the animated birds from the Angry Birds series with a slight twist.
 					</div>
 					</ul>
 				</div>
