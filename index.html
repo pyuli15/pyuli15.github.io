@@ -104,7 +104,7 @@
 
 		.container .box1:hover  {
 			opacity: 0.3;
-			cursor: url("rocket.png");
+			
 
 		}
 
@@ -129,7 +129,7 @@
 			position: relative;
 			background-color: #e59aff;
     		padding: 10px;
-    		font-size: 15px;
+    		font-size: 20px;
     		color: black;
     		width: 355px;
     		height: 150px;
@@ -169,7 +169,6 @@
 
 		.container .content2:hover {
 			opacity: 1;
-			cursor: url("bullseye.png");
 			
 		}
 
@@ -178,7 +177,56 @@
 			position: relative;
 			background-color: #e59aff;
     		padding: 10px;
-    		font-size: 15px;
+    		font-size: 20px;
+    		color: black;
+    		width: 355px;
+    		height: 150px;
+    		left: -20px;
+
+		}
+
+		.container .box3 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(circus.jpg);
+			background-position: center;
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+			opacity: 1;
+		}
+
+		.container .box3:hover {
+			opacity: 0.3;
+		}
+
+		.content3 {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+			width:100%;
+		}
+
+		.container .content3:hover {
+			opacity: 1;
+
+			
+		}
+
+		.text3  {
+			text-align: center;
+			position: relative;
+			background-color: #e59aff;
+    		padding: 10px;
+    		font-size: 20px;
     		color: black;
     		width: 355px;
     		height: 150px;
