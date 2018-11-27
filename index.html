@@ -102,8 +102,10 @@
 			opacity: 1;
 		}
 
-		.container .box1:hover {
+		.container .box1:hover  {
 			opacity: 0.3;
+			cursor: url("rocket.png");
+
 		}
 
 		.container .box1 .icon {
@@ -129,6 +131,65 @@
 		}
 
 		.container .content1:hover {
+			opacity: 1;
+			
+		}
+
+		.text1  {
+			text-align: center;
+			position: relative;
+			background-color: #e59aff;
+    		padding: 10px;
+    		font-size: 15px;
+    		color: black;
+    		width: 355px;
+    		height: 150px;
+    		left: -20px;
+
+		}
+
+		.container .box2 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(space.png);
+			background-position: center;
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+			opacity: 1;
+		}
+
+		.container .box2:hover {
+			opacity: 0.3;
+		}
+
+		.container .box2 .icon {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%
+			height: 100%;
+			text-align: center;
+			transition: 0.5s;
+			z-index: 1;
+		}
+
+		.content2 {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+			width:100%;
+		}
+
+		.container .content2:hover {
 			opacity: 1;
 			
 		}
