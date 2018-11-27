@@ -87,7 +87,7 @@
 			margin: 240px auto;
 		}
 
-		.container .box {
+		.container .box1 {
 			position: relative;
 			width: calc(400px - 30px);
 			height: calc(300px - 30px);
@@ -100,7 +100,7 @@
 			border-radius: 10px;
 		}
 
-		.container .box .icon {
+		.container .box1 .icon {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -111,11 +111,75 @@
 			z-index: 1;
 		}
 
-		.container .box h3 {
+		.container .box1 h3 {
 			text-align: center;
 		}
 
-		.container .box p {
+		.container .box1 p {
+			text-align: center;
+		}
+
+		.container .box2 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(space.PNG);
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+		}
+
+		.container .box2 .icon {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%
+			height: 100%;
+			text-align: center;
+			transition: 0.5s;
+			z-index: 1;
+		}
+
+		.container .box2 h3 {
+			text-align: center;
+		}
+
+		.container .box2 p {
+			text-align: center;
+		}
+
+		.container .box3 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(shoot.PNG);
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+		}
+
+		.container .box3 .icon {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%
+			height: 100%;
+			text-align: center;
+			transition: 0.5s;
+			z-index: 1;
+		}
+
+		.container .box3 h3 {
+			text-align: center;
+		}
+
+		.container .box3 p {
 			text-align: center;
 		}
 
@@ -201,8 +265,20 @@
 		</div>
 
 		<div class="container">
-			<div class="box">
+			<div class="box1">
 				<a href="space-pong"></a>
+				<div style="background-image: url(space.PNG);">
+				<div class="icon"><i class="fa fa-bullseye" height= 200,width=200aria-hidden="true"></i>
+				</div>
+				</div>
+				<div class="content">
+					<h3>Search</h3>
+					<p> Blah blah blah here is some text that will decribe the game that will link and what not yassss.</p>
+				</div>
+			</div>
+
+			<div class="box2">
+				<a href="shoot-em-all"></a>
 				<div style="background-image: url(shoot.PNG);">
 				<div class="icon"><i class="fa fa-bullseye" height= 200,width=200aria-hidden="true"></i>
 				</div>
@@ -213,24 +289,17 @@
 				</div>
 			</div>
 
-			<div class="box">
-				<div class="icon"><i class="fa fa-bullseye" aria-hidden="true"></i>
+			<div class="box3">
+				<a href="space-pong"></a>
+				<div style="background-image: url(shoot.PNG);">
+				<div class="icon"><i class="fa fa-bullseye" height= 200,width=200aria-hidden="true"></i>
+				</div>
 				</div>
 				<div class="content">
 					<h3>Search</h3>
 					<p> Blah blah blah here is some text that will decribe the game that will link and what not yassss.</p>
 				</div>
 			</div>
-
-			<div class="box">
-				<div class="icon"><i class="fa fa-bullseye" aria-hidden="true"></i>
-				</div>
-				<div class="content">
-					<h3>Search</h3>
-					<p> Blah blah blah here is some text that will decribe the game that will link and what not yassss.</p>
-				</div>
-			</div>
-
 		</div>
 
 		<div id="page3">
