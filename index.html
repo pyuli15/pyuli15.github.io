@@ -288,6 +288,56 @@
 
 		}
 
+		.container .box5 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(virtual.png);
+			background-position: center;
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+			opacity: 1;
+		}
+
+		.container .box5:hover {
+			opacity: 0.3;
+		}
+
+		.content5 {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+			width:100%;
+		}
+
+		.container .content5:hover {
+			opacity: 1;
+
+			
+		}
+
+		.text5  {
+			text-align: center;
+			position: relative;
+			background-color: #e59aff;
+    		padding: 10px;
+    		font-size: 17px;
+    		color: black;
+    		width: 355px;
+    		height: 150px;
+    		left: -20px;
+    		font-weight: bold;
+
+		}
+
 
 		
 		p{
@@ -436,6 +486,22 @@
 					<li><a href="im-innocent"></a></li>
 					<div class="text4">
 						A group project game created for class, I'm Innocent is a prison escape experience made up of 4 different mini-games. Try to escape the prison by successfully beating all four games. Will you escape?
+						<br></br>
+						CLICK TO PLAY NOW!
+					</div>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box5">
+				<a href="virtual-reality"></a>
+				<div style="background-image: url(virtual.png);">
+				</div>
+				<div class="content5" onclick="location.href='virtual-reality';" style="cursor:pointer;">
+					<ul>
+					<li><a href="virtual-reality"></a></li>
+					<div class="text5">
+						VIRTUAL REALITY!!!
 						<br></br>
 						CLICK TO PLAY NOW!
 					</div>
