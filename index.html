@@ -83,7 +83,7 @@
 		.container {
 			position: relative;
 			width: 1200px;
-			height: 700px;
+			height: 1000px;
 			margin: 50px;
 			left: 50px;
 		}
@@ -390,6 +390,57 @@
 		}
 
 
+		.container .box7 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(trujillo.PNG);
+			background-position: center;
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+			opacity: 1;
+		}
+
+		.container .box7:hover {
+			opacity: 0.3;
+		}
+
+		.content7 {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+			width:100%;
+		}
+
+		.container .content7:hover {
+			opacity: 1;
+
+			
+		}
+
+		.text7  {
+			text-align: center;
+			position: relative;
+			background-color: #e59aff;
+    		padding: 10px;
+    		font-size: 17px;
+    		color: black;
+    		width: 355px;
+    		height: 150px;
+    		left: -20px;
+    		font-weight: bold;
+
+		}
+
+
 		
 		p{
 		  color: white;
@@ -568,7 +619,23 @@
 					<ul>
 					<li><a href="https://pyuli15.itch.io/brazilian-2d-platformer"></a></li>
 					<div class="text6">
-						Brazilian Virtual Reality Game currently in the works. Experience a snippet of what I have developed thus far. Done for my Interactive Computing class.
+						Brazilian Platformer game done in Unity for a Game Development course. Very Rough Draft, with some bugs that need fixing.
+						<br></br>
+						CLICK TO PLAY NOW!
+					</div>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box7">
+				<a href="https://pyuli15.itch.io/trujillo-game"></a>
+				<div style="background-image: url(trujillo.PNG);">
+				</div>
+				<div class="content7" onclick="location.href='https://pyuli15.itch.io/trujillo-game';" style="cursor:pointer;">
+					<ul>
+					<li><a href="https://pyuli15.itch.io/trujillo-game"></a></li>
+					<div class="text7">
+						Basic Unity Click adventure game. Played around with various Unity elements and code such as text boxes and point lighting. ROUGH DRAFT!!
 						<br></br>
 						CLICK TO PLAY NOW!
 					</div>
