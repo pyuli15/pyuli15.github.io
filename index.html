@@ -440,6 +440,57 @@
 
 		}
 
+		.container .box8 {
+			position: relative;
+			width: calc(400px - 30px);
+			height: calc(300px - 30px);
+			background-image: url(start.PNG);
+			background-position: center;
+			text-align: center;
+			float: left;
+			margin: 15px;
+			box-sizing: border-box;
+			overflow: hidden;
+			border-radius: 10px;
+			opacity: 1;
+		}
+
+		.container .box8:hover  {
+			opacity: 0.3;
+			
+
+		}
+
+		.content8 {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%)
+			width:100%;
+		}
+
+		.container .content8:hover {
+			opacity: 1;
+			
+		}
+
+		.text8  {
+			text-align: center;
+			position: relative;
+			background-color: #e59aff;
+    		padding: 10px;
+    		font-size: 17px;
+    		color: black;
+    		width: 355px;
+    		height: 150px;
+    		left: -20px;
+    		font-weight: bold;
+
+		}
+
 		.mySlides {display: none}
 		img {vertical-align: middle;}
 
@@ -708,6 +759,22 @@
 					<li><a href="https://pyuli15.itch.io/trujillo-game"></a></li>
 					<div class="text7">
 						Basic Unity Click adventure game. Played around with various Unity elements and code such as text boxes and point lighting. ROUGH DRAFT!!
+						<br></br>
+						CLICK TO PLAY NOW!
+					</div>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box8">
+				<a href="fabian-and-lula/info.html"></a>
+				<div style="background-image: url(start.PNG);">
+				</div>
+				<div class="content8" onclick="location.href='fabian-and-lula/info.html';" style="cursor:pointer;">
+					<ul>
+					<li><a href="fabian-and-lula/info.html"></a></li>
+					<div class="text8">
+						A game about two lovers, Fabian and Lula follows a Brailian Artist  trying to find his lost lover. Venture through a world of his creation as he encounters notes sprinkled throughout.
 						<br></br>
 						CLICK TO PLAY NOW!
 					</div>
