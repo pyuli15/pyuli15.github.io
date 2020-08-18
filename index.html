@@ -1,905 +1,147 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Pamela Yuli</title>
-		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
-	</head>
-	<body>
-		
-
-		<style>
-		@import url(http://fonts.googleapis.com/css?family=Lato:300);
-
-		body {
-		  background: #404853;
-		  font-family: 'Lato', sans-serif;
-		  font-weight: 300;
-		  margin: 0;
-		  padding: 0;
-		  -webkit-font-smoothing: antialiased;
-		}
-
-		a {
-		  text-decoration: none;
-		}
-
-		.topnav ul {
-		  margin: 0;
-		  padding: 0;
-		  width: 100%;
-		}
-
-		.topnav li {
-		  list-style-type: none;
-		}
-
-		h1 {
-		  color: white;
-		  font-size: 30px;
-		  text-align: center;
-		}
-		.logo {
-	  	
-	  	text-align: center;
-	    display: block;
-	    height: 150px;
-	    padding-block-start: 300px;
-		}
-
-		/* Add a black background color to the top navigation */
-		.topnav {
-		    background-color: #404853;
-		    overflow: hidden;
-		    width: 100%;
-		    padding: 15px;
-    		padding-left: 150px;
-    		position: fixed;
-		}
-
-		/* Style the links inside the navigation bar */
-		.topnav a {
-		    float: left;
-		    color: #f2f2f2;
-		    text-align: center;
-		    padding: 14px 16px;
-		    text-decoration: none;
-		    font-size: 17px;
-		    width: 15%;
-
-		}
-
-		/* Change the color of links on hover */
-		.topnav a:hover {
-		    background-color: #ddd;
-		    color: black;
-		}
-
-		/* Add a color to the active/current link */
-		.topnav a.active {
-		    background-color: #373737;
-		    color: white;
-		}
-
-		.container {
-			position: relative;
-			width: 1200px;
-			height: 1000px;
-			margin: 50px;
-			left: 50px;
-		}
-
-		.container .box1 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(space.png);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box1:hover  {
-			opacity: 0.3;
-			
-
-		}
-
-		.content1 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content1:hover {
-			opacity: 1;
-			
-		}
-
-		.text1  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-		.container .box2 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(shoot.PNG);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box2:hover {
-			opacity: 0.3;
-		}
-
-		.content2 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content2:hover {
-			opacity: 1;
-			
-		}
-
-		.text2  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-		.container .box3 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(circus.jpg);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box3:hover {
-			opacity: 0.3;
-		}
-
-		.content3 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content3:hover {
-			opacity: 1;
-
-			
-		}
-
-		.text3  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-		.container .box4 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(innocent.png);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box4:hover {
-			opacity: 0.3;
-		}
-
-		.content4 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content4:hover {
-			opacity: 1;
-
-			
-		}
-
-		.text4  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-		.container .box5 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(virtual.png);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box5:hover {
-			opacity: 0.3;
-		}
-
-		.content5 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content5:hover {
-			opacity: 1;
-
-			
-		}
-
-		.text5  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-
-		.container .box6 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(aventura.PNG);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box6:hover {
-			opacity: 0.3;
-		}
-
-		.content6 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content6:hover {
-			opacity: 1;
-
-			
-		}
-
-		.text6  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-
-		.container .box7 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(trujillo.PNG);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box7:hover {
-			opacity: 0.3;
-		}
-
-		.content7 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content7:hover {
-			opacity: 1;
-
-			
-		}
-
-		.text7  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-		.container .box8 {
-			position: relative;
-			width: calc(400px - 30px);
-			height: calc(300px - 30px);
-			background-image: url(start.PNG);
-			background-position: center;
-			text-align: center;
-			float: left;
-			margin: 15px;
-			box-sizing: border-box;
-			overflow: hidden;
-			border-radius: 10px;
-			opacity: 1;
-		}
-
-		.container .box8:hover  {
-			opacity: 0.3;
-			
-
-		}
-
-		.content8 {
-			transition: .5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%)
-			width:100%;
-		}
-
-		.container .content8:hover {
-			opacity: 1;
-			
-		}
-
-		.text8  {
-			text-align: center;
-			position: relative;
-			background-color: #e59aff;
-    		padding: 10px;
-    		font-size: 17px;
-    		color: black;
-    		width: 355px;
-    		height: 150px;
-    		left: -20px;
-    		font-weight: bold;
-
-		}
-
-		.mySlides {display: none}
-		img {vertical-align: middle;}
-
-		/* Slideshow container */
-		.slideshow-container {
-			max-width: 1000px;
-			position: relative;
-			margin: auto;
-		}
-
-		/* Caption text */
-		.text {
-		  color: #f2f2f2;
-		  font-size: 15px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  bottom: 8px;
-		  width: 100%;
-		  text-align: center;
-		  padding-top: 30px;
-		}
-
-		/* Number text (1/3 etc) */
-		.numbertext {
-		  color: #f2f2f2;
-		  font-size: 12px;
-		  padding: 8px 12px;
-		  position: absolute;
-		  padding-left: 80px;
-		  top: 0;
-		}
-
-		/* The dots/bullets/indicators */
-		.dot {
-		  cursor: pointer;
-		  height: 15px;
-		  width: 15px;
-		  margin: 0 2px;
-		  background-color: #bbb;
-		  border-radius: 50%;
-		  display: inline-block;
-		  transition: background-color 0.6s ease;
-		}
-
-		.active, .dot:hover {
-		  background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-		  -webkit-animation-name: fade;
-		  -webkit-animation-duration: 1.5s;
-		  animation-name: fade;
-		  animation-duration: 1.5s;
-		}
-
-		@-webkit-keyframes fade {
-		  from {opacity: .4} 
-		  to {opacity: 1}
-		}
-
-		@keyframes fade {
-		  from {opacity: .4} 
-		  to {opacity: 1}
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
-		  .text {font-size: 20px}
-		}
-
-
-		
-		p{
-		  color: white;
-		  cursor:default;
-		  font-size:0.8em;
-		  margin-top:5em;
-		  user-select: none;
-		}
-
-		#page1 {
-		height:100px;
-		width:1000px;
-		background:#404853;
-		padding-top:200px;
-		text-align: center;
-
-		
-		}
-		
-		#page2 {
-		height:0px;
-		width:1000px;
-		background:#404853;
-		padding-top:250px;
-		text-align: center;
-		padding-left: 220px;
-		padding-bottom: 70px;
-
-		}
-		
-		#page3 {
-		height:600px;
-		width:1000px;
-		background:#404853;
-		padding-top:200px;
-		text-align: center;
-		padding-left: 240px;
-		padding-bottom: 70px;
-		padding: 60px;
-	    background-color: #404853;
-	    border-style: solid;
-	    border-width: 20px;
-	    margin: 117px;
-	    border-color: #aec6cf;
-
-		}
-
-		.about {
-
-		border-style: solid;
-		border-width: 2px;
-		border-color: #f00bac;
-		padding: 40px;
-		position: relative;
-		top: 70px;
-		}
-
-		#page4 {
-		height:1100px;
-		width:1000px;
-		background:#404853;
-		padding-top:200px;
-		text-align: center;
-		margin-left: 215px;
-
-		}
-
-		</style>
-		<div class="topnav">
-			<ul>
-				<li><a class="active" href="#home">Home</a></li>
-				<li><a href="#games">Games</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="Resume.pdf">CV/Resume</a></li>
-				<li><a href="#drawings">Art/Drawings</a></li>
-			</ul>
-		</div>
-
-		<div class="logo">
-			<img src="logo.png">
-		</div>
-		<div id="page1">
-		  <a id="home" class="smooth"></a>
-		</div>
-
-		<div id="page2">
-		  <a id="games" class="smooth"></a>
-		    <img src="games_icon.png" width=75px height=75px>
-		</div>
-
-		<div class="container">
-			<div class="box1">
-				<a href="space-pong"></a>
-				<div style="background-image: url(space.png);">
-				</div>
-				<div class="content1" onclick="location.href='space-pong';" style="cursor: pointer;">
-					<ul>
-					<li><a href="space-pong"></a></li>
-					<div class="text1">
-						Space Pong is a rendition of the classic pong game where you must keep the ball in a space world while collecting stranded astronauts on the screen. How many astronauts can you save?
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box2">
-				<a href="shoot-em-all"></a>
-				<div style="background-image: url(shoot.PNG);">
-				</div>
-				<div class="content2" onclick="location.href='shoot-em-all';" style="cursor:pointer;">
-					<ul>
-					<li><a href="shoot-em-all"></a></li>
-					<div class="text2">
-						Shoot Em' All is a simple shooting game where your goal is to shoot as many birds before time runs out. Miss too many birds and it's GAME OVER. Inpired by the animated birds from the Angry Birds series.
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box3">
-				<a href="circus-of-values-wack-a-mole"></a>
-				<div style="background-image: url(shoot.PNG);">
-				</div>
-				<div class="content3" onclick="location.href='circus-of-values-wack-a-mole';" style="cursor:pointer;">
-					<ul>
-					<li><a href="circus-of-values-wack-a-mole"></a></li>
-					<div class="text3">
-						This quirky version of wack-a-mole was heavily inspired by the BioShock game series, specifically the Circus of Values vending machine. Hit all the correct tonics and gain as many points as you can before time runs out!
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box4">
-				<a href="im-innocent"></a>
-				<div style="background-image: url(innocent.png);">
-				</div>
-				<div class="content4" onclick="location.href='im-innocent';" style="cursor:pointer;">
-					<ul>
-					<li><a href="im-innocent"></a></li>
-					<div class="text4">
-						A group project game created for class, I'm Innocent is a prison escape experience made up of 4 different mini-games. Try to escape the prison by successfully beating all four games. Will you escape?
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box5">
-				<a href="favela-virtual-reality/page.html"></a>
-				<div style="background-image: url(virtual.png);">
-				</div>
-				<div class="content5" onclick="location.href='favela-virtual-reality/page.html';" style="cursor:pointer;">
-					<ul>
-					<li><a href="favela-virtual-reality/page.html"></a></li>
-					<div class="text5">
-						Brazilian Virtual Reality Game currently in the works. Experience a snippet of what I have developed thus far. Done for my Interactive Computing class.
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box6">
-				<a href="https://pyuli15.itch.io/brazilian-2d-platformer"></a>
-				<div style="background-image: url(aventura.PNG);">
-				</div>
-				<div class="content6" onclick="location.href='https://pyuli15.itch.io/brazilian-2d-platformer';" style="cursor:pointer;">
-					<ul>
-					<li><a href="https://pyuli15.itch.io/brazilian-2d-platformer"></a></li>
-					<div class="text6">
-						Brazilian Platformer game done in Unity for a Game Development course. Very Rough Draft, with some bugs that need fixing.
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box7">
-				<a href="https://pyuli15.itch.io/trujillo-game"></a>
-				<div style="background-image: url(trujillo.PNG);">
-				</div>
-				<div class="content7" onclick="location.href='https://pyuli15.itch.io/trujillo-game';" style="cursor:pointer;">
-					<ul>
-					<li><a href="https://pyuli15.itch.io/trujillo-game"></a></li>
-					<div class="text7">
-						Basic Unity Click adventure game. Played around with various Unity elements and code such as text boxes and point lighting. ROUGH DRAFT!!
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-
-			<div class="box8">
-				<a href="fabian-and-lula/info.html"></a>
-				<div style="background-image: url(start.PNG);">
-				</div>
-				<div class="content8" onclick="location.href='fabian-and-lula/info.html';" style="cursor:pointer;">
-					<ul>
-					<li><a href="fabian-and-lula/info.html"></a></li>
-					<div class="text8">
-						A game about two lovers, Fabian and Lula follows a Brailian Artist  trying to find his lost lover. Venture through a world of his creation as he encounters notes sprinkled throughout.
-						<br></br>
-						CLICK TO PLAY NOW!
-					</div>
-					</ul>
-				</div>
-			</div>
-		</div>
-			
-		<div id="page3">
-		  <a id="about" class="smooth"></a>
-		  <h1> About Me </h1>
-		  <img src="me.png" width=200px height=200px>
-		  <div class="about"> I am currently a senior at New York University studying Storytelling Through Video Games at the Gallatin school. I have always had a passion for video games growing up, and decided what better way than to make-them as a career! Some of my favorite games are The Last of Us, Papo & Yo, and What Remains of Edith Finch, to name a few. My goal is to gain the skills to create meaningful gaming experiences that are rich in story, and focus on those who do not get as much attention in the world, this being third world countries and minorities. I am based in New York.
-		  </div>
-
-		</div>
-
-		<div id="page4">
-		<a id="drawings" class="smooth"></a>
-		<h1> Drawings and Sketches </h1>
-			<div class="slideshow-container">
-
-				<div class="mySlides fade">
-				  <div class="numbertext">1 / 7</div>
-				  <img src="wall.png" style="width:60%">
-				  <div class="text">Girl drawing edited in photoshop</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">2 / 7</div>
-				  <img src="mask.png" style="width:60%">
-				  <div class="text">Mask Sketch drawn in pencil and painted with acrylic</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">3 / 7</div>
-				  <img src="lady.jpg" style="width:60%">
-				  <div class="text">Drawing of a lady</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">4 / 7</div>
-				  <img src="girl.jpg" style="width:60%">
-				  <div class="text">Drawing of a girl</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">5 / 7</div>
-				  <img src="baby.jpg" style="width:60%">
-				  <div class="text">Drawing of a baby's face</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">6 / 7</div>
-				  <img src="fish.png" style="width:60%">
-				  <div class="text">Drawing of a fish in a fishbowl. Edited in Photoshop</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">7 / 7</div>
-				  <img src="swim.png" style="width:60%">
-				  <div class="text">Drawing of a little girl underwater. Edited in Photoshop</div>
-				</div>
-
-			</div>
-				<br>
-
-				<div style="text-align:center">
-				  <span class="dot" onclick="currentSlide(1)"></span> 
-				  <span class="dot" onclick="currentSlide(2)"></span> 
-				  <span class="dot" onclick="currentSlide(3)"></span> 
-				  <span class="dot" onclick="currentSlide(4)"></span> 
-				  <span class="dot" onclick="currentSlide(5)"></span> 
-				  <span class="dot" onclick="currentSlide(6)"></span>
-				  <span class="dot" onclick="currentSlide(7)"></span>
-				</div>
-
-		</div>
-
-		<footer text-align="center" color ="white">&copy; Pamela Yuli
-			<br>
-			All content and trademarks property of their respective owners.
-
-		</footer>
-
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-		<script>
-		$('.smooth').on('click', function() {
-		    $.smoothScroll({
-		        scrollElement: $('body'),
-		        scrollTarget: '#' + this.id
-		    });
-		    
-		    return false;
-		});
-
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-		  showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-		  showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) 
-		{
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  if (n > slides.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = slides.length}
-		  for (i = 0; i < slides.length; i++) {
-		      slides[i].style.display = "none";  
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		      dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";  
-		  dots[slideIndex-1].className += " active";
-		}
-		</script>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamela Yuli</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overflow-wrapper">
+        <header>
+            <div id="main-intro">
+                <h1>Pamela Yuli</h1>
+                <h2>Front-End Developer | Game Designer | Artist</h2>
+            </div>
+            <nav id="top-nav">
+                <ul id="top-links">
+                    <li class="active"><a href= "index.html">Home</a></li>
+                    <li><a href= #About>About</a></li>
+                    <li><a href= #Projects>Projects</a></li>
+                    <li><a href= #Resume>Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="logo-main">
+            <!-- <img id="star-map" src="./images/star-map.png" alt=""> -->
+            <div class="logo-main-text">
+                Hi! I'm a Front-End Developer.
+            </div>
+            <button id="homepage-works-link" onclick="location.href = '#currentProjects'">See Current Projects</button>
+        </div>
+        <div id="currentProjects">
+            <div class="contentWrapper">
+                <h1 id="recentProjectsTitle">Recent Projects</h1>
+                <div class="contentBox">
+                    <h3 class="title-text">Those Who Came After</h3>
+                    <h4 class="subtitle-text">MAY 2019</h4>
+                    <h4 class="snippet-text">Project Duration: 3 Weeks</h4>
+                    <h4 class="snippet-text">Keywords: Text-adventure, History, Game</h4>
+                    <img id="those-who-came"src="./images/those-who-came-after.png" alt="Those Who Came After Main Screen">
+                    <div class="view-project-text">
+                        <a href="https://pyuli15.itch.io/those-who-came-after">
+                            <i class="fas fa-desktop"></i>
+                        </a>
+                        <h3 class="view-text-1">Live Preview</h3>
+                        <a href="https://github.com/pyuli15">
+                        <i class="fa fa-code"></i>
+                        </a>
+                        <h3 class="view-text-2">Source</h3>
+                        <h4 class="view-text-3">This app is based on the popular text adventure games made popular in the early 80's. You play as a native of the island of Hispanola looking to escape your enslavement.</h4>
+                        <h4 class="view-text-4">Technologies Used:</h4>
+                        <h4 class="view-text-5">
+                            <ul>
+                                <li class="technologies-list">Unity 2D</li>
+                                <br>
+                                <li class="technologies-list">C#</li>
+                                <br>
+                                <li class="technologies-list">Visual Studio Code</li>
+                                <br>
+                                <li class="technologies-list">PhotoShop</li>
+                                <br>
+                                <li class="technologies-list">HTML5</li>
+                                <br>
+                                <li class="technologies-list">CSS3</li>
+                                <br>
+                                <li class="technologies-list">Audacity</li>
+                            </ul>
+                        </h4>
+
+                </div>
+                </div>
+                <div class="projectBreakdown">
+                    <h4 class="view-text-6">My Role</h4>
+                    <h4 class="view-text-7">In this project I oversaw all aspects of development. My intial interest in the topic came from a course I was taking my senior year at New York University, which focused on literature based in the Carribean. </h4>
+                    <h4 class="view-text-6">Project Difficulties</h4>
+                    <h4 class="view-text-7">After researching the ways in which I could develop a text-adventure game using Unity, I realized the amount of items I would ultimately need to implement was a lot more than I had anticipated. I was essentially working with over a hundred items and no way to really organize them.</h4>
+                    <h4 class="view-text-6">My Solution</h4>
+                    <h4 class="view-text-7">Through some in depth organization, I was able to develop a chart with all items as well as prompts that would lead to: obtaining the items, directional cues, and blocked passages that would prevent the player from progressing. The process became much quicker and simpler, and allowed me to focus most of my time on the story.</h4>
+                    <h4 class="view-text-6">Notable Features</h4>
+                    <h4 class="view-text-7">The simplicity of this app is definitely something that reminds me of the classic text-adventure games I would play growing up. Despite there being no images, I believe the audio cues and plot help bring this story to life.</h4>
+                    
+                </div>
+
+                <div class="contentBox">
+                    <h3 class="title-text">Metamorfosis</h3>
+                    <h4 class="subtitle-text">MAY 2019</h4>
+                    <h4 class="snippet-text">Project Duration: 1 Month</h4>
+                    <h4 class="snippet-text">Keywords: VR, Womanhood, Art</h4>
+                    <img id="metamorfosis-img"src="./images/metamorfosis-img.png" alt="Those Who Came After Main Screen">
+                    <div class="view-project-text">
+                        <a href="https://www.youtube.com/watch?v=G88V3ILThkw">
+                            <i class="fas fa-desktop"></i>
+                        </a>
+                        <h3 class="view-text-1">Live Preview</h3>
+                        <a href="https://github.com/pyuli15">
+                        <i class="fa fa-code"></i>
+                        </a>
+                        <h3 class="view-text-2">Source</h3>
+                        <h4 class="view-text-3">This app was developed for a New York University course which focused on Digital Media. For this project I developed the idea for a VR art piece, with a focus on aspects of woman hood.</h4>
+                        <h4 class="view-text-4">Technologies Used:</h4>
+                        <h4 class="view-text-5">
+                            <ul>
+                                <li class="technologies-list">Unity 3D</li>
+                                <br>
+                                <li class="technologies-list">C#</li>
+                                <br>
+                                <li class="technologies-list">Visual Studio Code</li>
+                                <br>
+                                <li class="technologies-list">PhotoShop</li>
+                                <br>
+                                <li class="technologies-list">HTML5</li>
+                                <br>
+                                <li class="technologies-list">CSS3</li>
+                                <br>
+                                <li class="technologies-list">Audacity</li>
+                            </ul>
+                        </h4>
+
+                </div>
+                </div>
+                <div class="projectBreakdown">
+                    <h4 class="view-text-6">My Role</h4>
+                    <h4 class="view-text-7">In this project I oversaw all aspects of development. Being that I am alos an artist, I decided to create original digital srt pieces on topics in today's world. The three topics I focused on were 1) The Emotional Being 2)Queen Bee Leading, Whose to Follow and 3) Accepting the Unknown </h4>
+                    <h4 class="view-text-6">Project Difficulties</h4>
+                    <h4 class="view-text-7">Creating the actual VR space was by far the most difficult. This was my first attempt at using Unity's 3D engine, so I had to learn how to navigate the actual interface. Once I was able to successfully program the engines cameras, I was more easily able to develop the space to fit my needs.</h4>
+                    <h4 class="view-text-6">My Solution</h4>
+                    <h4 class="view-text-7">My prior experience with Unity's 2D engine aided me in understanding the basic functionalities of several 3D elements. I was able to adapt my knowledge of Unity's 2D camera to create a 3D camera that captured the space in a way that focused primarily on the art.</h4>
+                    <h4 class="view-text-6">Notable Features</h4>
+                    <h4 class="view-text-7">The atmospheric music in the background is something I added at the very end and is something I believe really pulled the experience together. The moving art pieces add movement to the messages I wanted to come across.</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer id="footer-nav">
+    <nav id="bottom-nav">
+        <ul id="bottom-links">
+            <li><a href= "https://github.com/pyuli15"><i class="fab fa-github"></i></a></li>
+            <li><a href= "https://www.linkedin.com/in/pamela-yuli-bba281146/"><i class="fab fa-linkedin"></i></a></li>
+            <p>&copy; 2020 Pamela Yuli</p>
+        </ul>
+    </nav>
+</footer>
 </html>

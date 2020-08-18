@@ -1,0 +1,300 @@
+/* Fonts */
+@font-face { font-family: Bucheon; src: url('./fonts/Bucheon.otf'); }
+@font-face { font-family: Montserat; src: url('./fonts/Montserrat-Bold.ttf'); } 
+@font-face { font-family: Josefin Sans Light; src: url('./fonts/JosefinSans-Light.ttf'); } 
+@font-face { font-family: Josefin Sans-Bold; src: url('./fonts/JosefinSans-Bold.ttf'); }
+@font-face { font-family: Best; src: url('./fonts/BestPart.ttf'); }
+
+/* Setup */
+html{
+    margin: 0;
+}
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #C5D0E6;
+}
+
+#overflow-wrapper {
+    /* Fixing overflow x issue on mobile  */
+    overflow-x: hidden;
+    position: relative;
+}
+
+h1 {
+    font-family: Bucheon;
+    font-size: 60px;
+}
+h2 {
+    font-family: Josefin Sans Light;
+}
+
+h3 {
+    font-family: Josefin Sans Light;
+}
+
+/* Nav Setup */
+#main-intro {
+    padding: 10px;
+    text-align: center;
+}
+
+#top-nav {
+    max-width: 100%;
+    min-height: 60px;
+    background-color: rgb(255, 255, 255, 0.5);
+    
+
+}
+
+li {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+a {
+    color: black;
+    text-decoration-line: none;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: #FAC9B8;
+}
+
+#top-links {
+    font-family: Josefin Sans Light;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+/* Figure out how to make a hamburger menu after a certain width */
+@media screen and (min-width: 298) {
+    #top-links {
+
+    }
+}
+
+#logo-main {
+    background-image: url('./videos/star-map-gif.gif');
+    /* background-color: #979fad; */
+    min-height: 600px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    
+}
+
+/* #star-map {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    
+} */
+
+
+/* Body Content */
+.logo-main-text {
+    font-family: Bucheon;
+    font-size: 40px;
+    text-align: center;
+    position: absolute; 
+    width: 100%;
+    top: 10%;  
+    color: white; 
+    font-weight: 1000;
+    padding-top: 50px;
+}
+
+
+#homepage-works-link {
+    position: absolute;
+    top: 31%;
+    text-align: center;
+    margin-left: -68px;
+    font-family: Josefin Sans Light;
+    padding: 8px;
+}
+
+@media screen and (max-width: 471px){
+    #homepage-works-link {
+        position: absolute;
+        top: 42%;
+        text-align: center;
+        margin-left: -68px;
+        font-family: Josefin Sans Light;
+        padding: 8px;
+    }
+}
+
+#homepage-works-link:hover {
+    color: rgb(245, 203, 88);
+}
+
+/* Current Projects */
+
+#currentProjects {
+    min-height: 600px;
+}
+
+#recentProjectsTitle {
+    font-family: Bucheon;
+}
+.contentWrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    min-height: 600px;
+}
+
+.contentBox { 
+    max-width: 300px;
+    min-height: 200px;
+    margin: 30px;
+    display: inline-block;
+    
+}
+
+.projectBreakdown {
+    display: inline-block;
+    max-width: 200px;
+}
+
+.title-text {
+    font-family: Josefin Sans-Bold;
+    text-align: left;
+    margin-left: 49px;
+}
+
+.subtitle-text {
+    font-family: Josefin Sans Light;
+    text-align: left;
+    margin-left: 49px;
+}
+
+.snippet-text {
+    font-family: Josefin Sans Light;
+    text-align: left;
+    margin-left: 49px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+#those-who-came {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+}
+
+#metamorfosis-img {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+}
+
+.view-project-text {
+    margin-left: -58px;
+    margin-top: -9px;
+    font-family: Josefin Sans Light;
+    font-size: 13px;
+    
+}
+
+.view-text-1 {
+    display: inline-block;
+    color: #aa8b81;
+}
+
+.view-text-2 {
+    display: inline-block;
+    color: rgb(97,92,91, 0.5)
+}
+
+.view-text-3 {
+    display: block;
+    margin-left: 110px;
+    margin-right: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.view-text-4 {
+    margin-right: 23px;
+    font-family: Josefin Sans-Bold;
+}
+
+.view-text-5 {
+    display: block;
+}
+
+.view-text-6 {
+    font-family: Josefin Sans-Bold;
+    font-size: 13px;
+}
+
+.view-text-7 {
+    font-family: Josefin Sans Light;
+    font-size: 13px;
+    text-align: left;
+    
+}
+
+
+
+.technologies-list {
+    display: block;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.fa-desktop {
+    display: inline-block;
+    margin-left: 53px;
+    margin-right: 7px;
+    color: #d6aea1;
+    
+}
+
+.fa-code {
+    display: inline-block;
+    color: rgb(97,92,91, 0.5);
+    margin-left: 15px;
+    
+}
+
+/* Footer */
+#footer-nav {
+    max-width: 100%;
+    height: 60px;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+
+}
+
+#bottom-links {
+    margin: 0;
+    padding-top: 8px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.fa-github, .fa-linkedin {
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.fa-github:hover{
+    color: rgb(245, 203, 88);
+}
+
+.fa-linkedin:hover{
+    color: rgb(245, 203, 88);
+}
+
+
+
