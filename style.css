@@ -43,6 +43,7 @@ h3 {
     max-width: 100%;
     min-height: 60px;
     background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
 }
 
 li {
@@ -95,12 +96,18 @@ a:hover {
 
     #top-links-mobile {
         font-size: 28px;
-        margin-left: 83px;
         padding-top: 20px;
+        position: relative;
+        top: 15px;
         display: unset; 
 
     }
     
+}
+
+.fa-home, .fa-user-circle, .fa-folder, .fa-file {
+    justify-content: space-evenly;
+    padding-right: 5px;
 }
 
 #logo-main {
