@@ -43,8 +43,6 @@ h3 {
     max-width: 100%;
     min-height: 60px;
     background-color: rgb(255, 255, 255, 0.5);
-    
-
 }
 
 li {
@@ -71,13 +69,38 @@ a:hover {
     text-align: center;
     list-style-type: none;
     
+    
+}
+
+#top-links-mobile {
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    display: none; 
 }
 
 /* Figure out how to make a hamburger menu after a certain width */
-@media screen and (min-width: 298) {
+@media only screen and (max-width: 400px) {
     #top-links {
+        font-family: Josefin Sans Light;
+        font-size: 20px;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        list-style-type: none;
+        display: none;
+    }
+
+    #top-links-mobile {
+        font-size: 28px;
+        margin-left: 83px;
+        padding-top: 20px;
+        display: unset; 
 
     }
+    
 }
 
 #logo-main {
@@ -259,7 +282,7 @@ a:hover {
     
 }
 
-.fa-code {
+.fa-file-code {
     display: inline-block;
     color: rgb(97,92,91, 0.5);
     margin-left: 15px;
