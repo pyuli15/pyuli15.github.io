@@ -192,7 +192,7 @@ a:hover {
     border: 3px solid black; 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
     .contentBox { 
         max-width: 300px;
         min-height: 200px;
@@ -267,6 +267,13 @@ a:hover {
 }
 
 #in-the-stars {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    
+}
+
+#circus-of-values {
     width: 200px;
     height: 100px;
     margin: 0px;
