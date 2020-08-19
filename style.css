@@ -189,8 +189,34 @@ a:hover {
     display: inline-block;
     background-color: white;
     padding: 20px;
-    border: 3px solid black;
-    
+    border: 3px solid black; 
+}
+
+@media screen and (max-width: 400px) {
+    .contentBox { 
+        max-width: 300px;
+        min-height: 200px;
+        margin: 30px;
+        display: inline-block;
+        background-color: white;
+        padding: 20px;
+        border: 3px solid black;
+        vertical-align: top;
+        
+    }
+
+    .projectBreakdown {
+        display: inline-block;
+        max-width: 200px;
+        background-color: white;
+        padding: 20px;
+        border: 3px solid black;
+        vertical-align: top;
+        position: relative;
+        top: 30px;
+        margin-bottom: 60px;
+    }
+
 }
 
 
