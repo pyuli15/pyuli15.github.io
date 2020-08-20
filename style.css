@@ -156,6 +156,8 @@ a:hover {
     font-family: Josefin Sans Light;
     width: 100px;
     height: 50px;
+    position: relative;
+    top: 40px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -193,6 +195,14 @@ a:hover {
     width: 100%;
     margin-top: 40px;
     min-height: 600px;
+}
+
+.contentWrapper-2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255, 0.5);
 }
 
 .contentBox { 
@@ -239,6 +249,11 @@ a:hover {
     background-color: white;
     padding: 20px;
     border: 3px solid black;
+}
+
+.resume-link-text {
+    position: relative;
+    top: 40px;
 }
 
 .title-text {
