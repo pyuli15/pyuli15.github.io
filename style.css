@@ -151,6 +151,12 @@ a:hover {
     padding: 8px;
 }
 
+#resume-link {
+    font-family: Josefin Sans Light;
+    width: 100px;
+    height: 50px;
+}
+
 @media screen and (max-width: 471px){
     #homepage-works-link {
         position: absolute;
