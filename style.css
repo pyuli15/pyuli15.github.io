@@ -149,12 +149,18 @@ a:hover {
     margin-left: -68px;
     font-family: Josefin Sans Light;
     padding: 8px;
+    transition: all 0.5s ease-in-out;
 }
 
 #resume-link {
     font-family: Josefin Sans Light;
     width: 100px;
     height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+#resume-link:hover {
+    color: rgb(245, 203, 88);
 }
 
 @media screen and (max-width: 471px){
@@ -165,6 +171,7 @@ a:hover {
         margin-left: -68px;
         font-family: Josefin Sans Light;
         padding: 8px;
+        transition: all 0.5s ease-in-out;
     }
 }
 
