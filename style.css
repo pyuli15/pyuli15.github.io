@@ -326,6 +326,20 @@ a:hover {
     
 }
 
+#shoot-em-all {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    
+}
+
+#space-pong {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    
+}
+
 .view-project-text {
     margin-left: -58px;
     margin-top: -9px;
