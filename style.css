@@ -69,6 +69,9 @@ a:hover {
     padding: 20px;
     text-align: center;
     list-style-type: none;
+    position: relative;
+    left: 10px;
+
     
     
 }
@@ -78,6 +81,7 @@ a:hover {
     margin: 0;
     padding: 20px;
     text-align: center;
+    left: 12px;
     list-style-type: none;
     display: none; 
 }
@@ -99,6 +103,8 @@ a:hover {
         padding-top: 20px;
         position: relative;
         top: 15px;
+        left: 12px;
+
         display: unset; 
 
     }
@@ -212,7 +218,19 @@ a:hover {
     display: inline-block;
     background-color: white;
     padding: 20px;
-    border: 3px solid black; 
+    /* border: 3px solid black;  */
+}
+
+.project-group {
+    /* border-bottom: 3px solid rgb(97,92,91, 0.25); */
+    position: relative;
+    left: -40px;
+
+}
+
+.divider-line {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 400px) {
@@ -223,7 +241,7 @@ a:hover {
         display: inline-block;
         background-color: white;
         padding: 20px;
-        border: 3px solid black;
+        /* border: 3px solid black; */
         vertical-align: top;
         
     }
@@ -233,7 +251,7 @@ a:hover {
         max-width: 200px;
         background-color: white;
         padding: 20px;
-        border: 3px solid black;
+        /* border: 3px solid black; */
         vertical-align: top;
         position: relative;
         top: 30px;
@@ -248,7 +266,7 @@ a:hover {
     max-width: 200px;
     background-color: white;
     padding: 20px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 .resume-link-text {
