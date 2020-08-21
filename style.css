@@ -221,12 +221,6 @@ a:hover {
     /* border: 3px solid black;  */
 }
 
-.project-group {
-    /* border-bottom: 3px solid rgb(97,92,91, 0.25); */
-    position: relative;
-    left: -40px;
-
-}
 
 .divider-line {
     margin-left: auto;
@@ -257,6 +251,8 @@ a:hover {
         top: 30px;
         margin-bottom: 60px;
     }
+
+   
 
 }
 
