@@ -404,6 +404,11 @@ a:hover {
     
 }
 
+.about-me-text {
+    margin: 45px;
+    text-align: left;
+}
+
 /* Footer */
 #footer-nav {
     max-width: 100%;
