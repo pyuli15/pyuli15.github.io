@@ -145,6 +145,11 @@ a:hover {
     color: white; 
     font-weight: 1000;
     padding-top: 50px;
+    
+}
+
+#logo-main-box {
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 
@@ -408,6 +413,8 @@ a:hover {
     margin: 45px;
     text-align: left;
 }
+
+
 
 /* Footer */
 #footer-nav {
