@@ -423,7 +423,8 @@ a:hover {
 }
 
 .about-me-text {
-    margin: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: left;
 }
 
